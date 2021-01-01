@@ -1,0 +1,30 @@
+h1{
+  font-style: normal;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration-color: red;
+}
+
+p{
+  font-size: 18px;
+  font-style: italic;
+  font-family: inherit;
+  background-color: orange;
+}
+
+
+#second{
+
+  font-family: monospace;
+  font-style: oblique;
+  background-color: white;
+  font-size: 0.7em;
+}
+
+#third{
+
+  font-family: cursive;
+  font-style: normal;
+  background-color:green;
+}

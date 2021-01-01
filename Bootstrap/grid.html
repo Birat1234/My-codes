@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grid</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Birat Dhar\Desktop\Python\Python_Django_Full_Stack_Development\Bootstrap\grid.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col lg 4 box">row</div>
+        <div class="col lg 4 boxes" >row</div>
+        <div class="col lg 4 boxy">row</div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col md 6 box">row</div>
+        <div class="col md 6 boxes" >row</div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col sm 3 boxes">row</div>
+        <div class="col sm 3 box" >row</div>
+        <div class="col sm 3 boxes">row</div>
+        <div class="col sm 3 boxy">row</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col lg 4 col md 4 col sm 4 col xs 4 box">row</div>
+        <div class="col lg 4 col md 4 col sm 4 col xs 4 boxes" >row</div>
+        <div class="col lg 4 col md 4 col sm 4 col xs 4 boxy">row</div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col lg 2 box">row</div>
+        <div class="col lg 2 boxes" >row</div>
+        <div class="col lg 2 boxy">row</div>
+        <div class="col lg 2 box">row</div>
+        <div class="col lg 2 boxes" >row</div>
+        <div class="col lg 2 boxy">row</div>
+      </div>
+    </div>
+
+    <p>Equal-width columns can be broken into multiple lines, but there was a Safari flexbox bug that prevented this from working without an explicit flex-basis or border. There are workarounds for older browser versions, but they shouldn’t be necessary if you’re up-to-date.</p>
+
+    <div class="container">
+  <div class="row">
+    <div class="col box">Column</div>
+    <div class="col boxes">Column</div>
+    <div class="w-100"></div>
+    <div class="col boxes">Column</div>
+    <div class="col boxy">Column</div>
+  </div>
+</div>
+
+
+<h1>Variable width content</h1>
+<p>Use col-{breakpoint}-auto classes to size columns based on the natural width of their content.</p>
+
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2 box">
+      1 of 3
+    </div>
+    <div class="col-md-auto boxes">
+      Variable width content
+    </div>
+    <div class="col col-lg-2 boxy">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col box">
+      1 of 3
+    </div>
+    <div class="col-md-auto boxes">
+      Variable width content
+    </div>
+    <div class="col col-lg-2 boxy">
+      3 of 3
+    </div>
+  </div>
+</div>
+
+
+  <h1>Equal-width multi-row</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col box">col</div>
+      <div class="col boxes">col</div>
+      <!-- <div class="w-100"></div> -->
+      <div class="col boxy">col</div>
+      <div class="col boxes">col</div>
+    </div>
+  </div>
+
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col box">col</div>
+      <div class="col boxes">col</div>
+      <div class="w-100"></div>
+      <div class="col boxes">col</div>
+      <div class="col boxy"></div>
+    </div>
+  </div>
+
+
+  </body>
+</html>

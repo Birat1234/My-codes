@@ -1,0 +1,56 @@
+/* thead{
+  background-color: blue;
+} */
+
+/* #fh{
+  background-color: blue;
+} */
+
+td{
+
+  height: 400px;
+  border: solid;
+  padding: 50px;
+  border-color: white;
+  border-width: 6px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#fc{
+  background-color:#ffadad;
+  width: 70px;
+
+}
+
+#sc{
+  background-color:#ffd6a5;
+  width: 70px;
+}
+
+#tc{
+  background-color:#fdffb6;
+  width: 70px;
+}
+
+#foc{
+  background-color:#caffbf;
+  width: 70px;
+}
+
+#fic{
+  background-color:#9bf6ff;
+  width: 70px;
+}
+
+#sic{
+  background-color:#a0c4ff;
+  width: 70px;
+}
+
+.tab{
+  margin: auto;
+}

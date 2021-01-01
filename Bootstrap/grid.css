@@ -1,0 +1,17 @@
+.box{
+  background-color: orange;
+  border:solid;
+  border-color: black;
+}
+
+.boxes{
+  background-color: white;
+  border:solid;
+  border-color: black;
+}
+
+.boxy{
+  background-color: green;
+  border:solid;
+  border-color: black;
+}

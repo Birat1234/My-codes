@@ -1,0 +1,21 @@
+h2{
+  color: #78e4f0
+}
+
+#extra{
+  color: red;
+
+  text-decoration: line-through;
+}
+
+div{
+  border: dotted;
+}
+
+li a{
+  color: green;
+}
+
+li text{
+  color: red;
+}

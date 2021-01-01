@@ -1,0 +1,50 @@
+body{
+  background-color: #ADD8E6;
+}
+
+h1{
+  border-color: black;
+  border-width: 1px;
+  border: solid;
+}
+
+h2{
+  color: purple;
+}
+
+input{
+  border: solid;
+  border-color: darkred;
+  /* #8B0000 */
+  border-width: 2px;
+}
+
+
+div p{
+  background-color: #FFFACD;
+}
+
+#textblock{
+  border: solid;
+  border-color: gray;
+  border-width: 5px;
+  width: 800px;
+  height: 400px;
+}
+
+li a{
+  color: red;
+}
+
+#itemone{
+  color: purple;
+  text-decoration: overline;
+}
+
+.exit{
+  border: dashed;
+  border-width: 4px;
+  border-color: yellow;
+  background-color: blue;
+
+}

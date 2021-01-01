@@ -1,0 +1,20 @@
+h2{
+
+  border: solid;
+  border-color: red;
+  width: 20%;
+  /* text-align: center; */
+  text-align: center;
+  height: 200px;
+  border-width: thick;
+
+  /* margin: 25px 25px 25px 25px; */
+
+  margin:auto;
+  margin-top: 17%;
+  margin-left: 40%;
+  text-align: center;
+
+
+
+}

@@ -1,0 +1,19 @@
+#tbl{
+height: 100px;
+width: 100px;
+}
+
+table{
+  margin-left: 600px;
+  margin-top: 150px;
+}
+/* table{
+  width: 500px;
+} */
+
+td{
+
+  text-align: center;
+  font-size: 40px;
+
+}
